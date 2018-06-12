@@ -1,0 +1,48 @@
+Upload to gihub
+
+Repository:
+***********
+Create repositorory on git hub
+position on the container directory
+
+git clone -b master https://github.com/oa4ajp/ham-radio-peru.git
+
+cd ham-radio-peru
+
+Copy the new files on the folder
+
+git remote add upstream https://github.com/oa4ajp/ham-radio-peru.git
+
+git remote -v
+
+create .gitignore file excludng node_modules, etc..
+
+git add .
+
+git commit -m "Project commit"
+
+git push origin master
+
+Al hacer refresh en el server slae 404 not found. (--OK--)
+Create download files to download the pdf with ham band peru color.
+
+Add SEO to the Angular application:
+***********************************
+Description: Ham Radio Peru, Radioaficionados Peru
+Keywords: Ham Radio Peru, Radioaficionados Peru
+(--OK--)
+
+Deploy:
+*******
+To reduce the deploy file size with optimization, reduce site load time.
+
+ng build --prod --env=prod
+
+
+
+
+	
+
+
+
+
