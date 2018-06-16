@@ -3,25 +3,23 @@ Upload to gihub
 Repository:
 ***********
 Create repositorory on git hub
-position on the container directory
 
-git clone -b master https://github.com/oa4ajp/ham-radio-peru.git
+cd angular5-php-service
+git init
 
-cd ham-radio-peru
+Staging:
+********
+git add .
+create .gitignore
+git add .gitignore 
+git commit -m "First Commit"
+git branch
 
-Copy the new files on the folder
-
-git remote add upstream https://github.com/oa4ajp/ham-radio-peru.git
-
+git remote add origin https://github.com/oa4ajp/angular5-php-service.git
 git remote -v
 
-create .gitignore file excludng node_modules, etc..
+git push -u origin master
 
-git add .
-
-git commit -m "Project commit"
-
-git push origin master
 
 Al hacer refresh en el server slae 404 not found. (--OK--)
 Create download files to download the pdf with ham band peru color.
