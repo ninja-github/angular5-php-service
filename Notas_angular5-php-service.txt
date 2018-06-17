@@ -4,7 +4,7 @@ Repository:
 ***********
 Create repositorory on git hub
 
-cd angular5-php-service
+cd php-web-service-001
 git init
 
 Staging:
@@ -15,20 +15,12 @@ git add .gitignore
 git commit -m "First Commit"
 git branch
 
-git remote add origin https://github.com/oa4ajp/angular5-php-service.git
+git remote add origin https://github.com/oa4ajp/php-web-service-001.git
 git remote -v
 
 git push -u origin master
 
-
 Al hacer refresh en el server slae 404 not found. (--OK--)
-Create download files to download the pdf with ham band peru color.
-
-Add SEO to the Angular application:
-***********************************
-Description: Ham Radio Peru, Radioaficionados Peru
-Keywords: Ham Radio Peru, Radioaficionados Peru
-(--OK--)
 
 Deploy:
 *******
@@ -36,6 +28,7 @@ To reduce the deploy file size with optimization, reduce site load time.
 
 ng build --prod --env=prod
 
+Create Upload status logic to known that the file was uploaded.
 
 
 

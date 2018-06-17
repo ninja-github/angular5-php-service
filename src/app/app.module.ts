@@ -5,6 +5,8 @@ import { FormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CloudService } from './service/cloud.service';
+import { FileUploadService } from './service/file-upload.service';
+
 import { HomeComponent } from './home/home.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
 
@@ -26,7 +28,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     
   ],
-  providers: [CloudService],
+  providers: [CloudService, FileUploadService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
