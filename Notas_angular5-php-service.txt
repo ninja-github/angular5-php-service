@@ -28,7 +28,9 @@ To reduce the deploy file size with optimization, reduce site load time.
 
 ng build --prod --env=prod
 
-
+url prod:
+*********
+angular5.co.nf
 
 
 
