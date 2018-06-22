@@ -28,7 +28,7 @@ To reduce the deploy file size with optimization, reduce site load time.
 
 ng build --prod --env=prod
 
-Create Upload status logic to known that the file was uploaded.
+
 
 
 

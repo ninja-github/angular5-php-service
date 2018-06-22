@@ -5,10 +5,15 @@
            id="file"
            (change)="handleFileInput($event.target.files)">
 </div>
-<div>
-    <button type="button" (click)="uploadFile()">
-      Upload File
-    </button>  
+<div class="row-container">
+    <div>
+        <button type="button" (click)="uploadFile()">
+        Upload File
+        </button>  
+    </div>
+    <div *ngIf="loading">
+        <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>    
+    </div>
 </div>
 <div>
     {{uploadStatus}}
